@@ -1,0 +1,68 @@
+[{
+    "name": "Bulbasaur",
+    "pokedexN": "001",
+    "img" : "/assets/img/pokemons/bulbasaur.png",
+    "type": "plant/poison",
+    "description": " es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región de Kanto, junto a Charmander y Squirtle. Se destaca por ser el primer Pokémon de la Pokédex Nacional"
+},
+{
+    
+    "name": "Yvysur",
+    "pokedexN": "002",
+    "img" : "/assets/img/pokemons/002.png",
+    "type": "plant/poison",
+    "description": "Ivysaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es la evolución de Bulbasaur, uno de los Pokémon iniciales de Kanto."
+},
+{
+    "name": "Venasuar",
+    "pokedexN": "003",
+    "img": "/assets/img/pokemons/800px-Venusaur.png",
+    "type": "plant/poison",
+    "description": "Venusaur, es la evolucion de Ivysuar está basado en una rana, al igual que toda su línea evolutiva3. El botón de flor que lleva sobre su lomo se abre completamente, dejando ver una enorme flor rosada,La gran flor que tiene sobre su espalda va tomando colores intensos si está llena de nutrientes y luz solar, se dice que son más poderosos en verano, estación del año donde pueden recibir más rayos de sol, además de constantes lluvias que potencian el aroma de su flor"
+},
+{
+    "name": "Charmander",
+    "pokedexN": "004",
+    "img":
+    "type":
+    "description":
+},
+{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+},
+{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+},{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+},{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+},{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+},{
+    "name":
+    "pokedexN":
+    "img":
+    "type":
+    "description":
+}
+]
