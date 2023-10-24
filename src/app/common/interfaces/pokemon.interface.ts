@@ -1,7 +1,7 @@
 
 export interface Pokemon {
     name: string
-    pokedex: number
+    pokedexN: number
     img: string
     type: string
     description: string

@@ -1,33 +1,34 @@
+
 import { Component, OnInit } from '@angular/core';
 import { PokemonService } from '../../../common/services/pokemon.service';
 import { Pokemon } from 'src/app/common/interfaces/pokemon.interface';
+import { Router } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-poke-page',
   templateUrl: './poke-page.component.html',
-  styles: [
-  ]
+  styleUrls: ['./poke-page.component.scss']
 })
 export class PokePageComponent implements OnInit{ 
 
-constructor (private pokemonService: PokemonService) {}
+constructor (private pokemonService: PokemonService, private router:Router) {}
 pokemons: Pokemon [] = []
+searchName = document.getElementById('searchName')
+showInformation = false
+selectedPokemon: Pokemon = {name:'',pokedexN: 0, img:'',type:'',description:''};
 ngOnInit(): void {
-  this.getPokemons();
+this.getPokemons('')
 }
-getPokemons (){
-  this.pokemonService.getPokemons().subscribe((res)=>{
+getPokemons (filter:string){
+  this.pokemonService.getPokemons(filter).subscribe((res)=>{
     this.pokemons = res
     })
   }
-  
+  choosePokemon(pokemon: Pokemon){
+    this.selectedPokemon = pokemon;
+    this.showInformation =  !this.showInformation;
+  }
+  }
 
-searchbycapital(tern:string):void{
-  console.log('desde pokepage');
-  console.log({tern});
-}
-
-
-}

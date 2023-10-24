@@ -1,4 +1,4 @@
-import { SharedModule } from './../shared/shared.module';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -7,9 +7,14 @@ import { PokePageComponent } from './pages/poke-page/poke-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { InformacionComponent } from './pages/informacion/informacion.component';
 
-import { SearchComponent } from './pages/search/search.component';
+
 import { PokeballsComponent } from './pages/pokeballs/pokeballs.component';
 import { MaterialModule } from '../material/material.module';
+import { FormsModule } from '@angular/forms';
+import { searchboxComponent } from '../shared/components/search-box/search-box.component';
+import { DataComponent } from './pages/data/data.component';
+
+
 
 
 @NgModule({
@@ -18,13 +23,14 @@ import { MaterialModule } from '../material/material.module';
     LayoutPageComponent,
     InformacionComponent,
     PokeballsComponent,
-    SearchComponent
+    searchboxComponent,
+    DataComponent,
   ],
   imports: [
     CommonModule,
     PokesRoutingModule,
     MaterialModule,
-    SharedModule
+    FormsModule
   ]
 })
 export class PokesModule { }

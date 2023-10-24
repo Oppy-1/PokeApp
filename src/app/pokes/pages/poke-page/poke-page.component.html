@@ -1,6 +1,6 @@
+<div *ngIf="!showInformation">
 <h1 class="text-center">Poke Info</h1>
 <h3 class="text-center">seleccion la generacion que prefiera y podra ver todos los pokemones de esa generacion</h3>
-
   
     <form action="/submit_form " method="post" class="text-center  ">
         <select name="opciones" id="opciones" class="border-solid col-6 text-base p-3 ">
@@ -11,19 +11,17 @@
         </select>
     </form>
     <hr color="#202020">
-  <app-searchbox 
-  placeholder="Busque pokemon o tipo"
-  (onValue)="searchbycapital($event)"
-  />
-    <div *ngFor="let pokemon of pokemons">
-     {{pokemon.description}}
+<search-box-component (onDebouncer)="getPokemons($event)"/> <!--(onValue)="pokename($event) 'showInformation= !showInformation'"-->
+<div class="container">
+    <div *ngFor="let pokemon of pokemons" >
     <div class="row">
-        <div   class="col-md-3 col-sm-6">
-          <div class="card mb-2 text-center bg-dark">
-                 <img class="card-img-top" [src]="pokemon.img">
+        <div  class="col-md-2 col-sm-6">
+          <div class="card mb-2 text-center bg-dark cursor-pointer" (click)="choosePokemon(pokemon)">
+                 <img class="card-img-top" [src]="pokemon.img " width=200px height="200px">
 
             <div class="card-body text-white">
               <p class="card-text">
+                {{pokemon.pokedexN}}
                 {{pokemon.name}}
                 {{pokemon.type}} 
                </p>
@@ -33,3 +31,9 @@
         </div>
       </div>
     </div>
+</div>
+</div>
+<div *ngIf="showInformation"> 
+<pokemon-data  [pokemonData]="selectedPokemon"/>
+
+</div>
