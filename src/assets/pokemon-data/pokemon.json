@@ -2,7 +2,7 @@
     "name": "Bulbasaur",
     "pokedexN": "001",
     "img" : "/assets/img/pokemons/bulbasaur.png",
-    "type": "planta/veneno",
+    "type": ["PLANTA","VENENO"],
     "description": "Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región de Kanto, junto a Charmander y Squirtle. Se destaca por ser el primer Pokémon de la Pokédex Nacional"
 },
 {
@@ -10,190 +10,204 @@
     "name": "Yvysur",
     "pokedexN": "002",
     "img" : "/assets/img/pokemons/002.png",
-    "type": "planta/veneno",
+    "type": ["PLANTA","VENENO"],
     "description": "Ivysaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es la evolución de Bulbasaur, uno de los Pokémon iniciales de Kanto."
 },
 {
     "name": "Venasuar",
     "pokedexN": "003",
     "img": "/assets/img/pokemons/800px-Venusaur.png",
-    "type": "planta/veneno",
-    "description": "Venusaur, es la evolucion de Ivysuar está basado en una rana, al igual que toda su línea evolutiva3. El botón de flor que lleva sobre su lomo se abre completamente, dejando ver una enorme flor rosada,La gran flor que tiene sobre su espalda va tomando colores intensos si está llena de nutrientes y luz solar, se dice que son más poderosos en verano, estación del año donde pueden recibir más rayos de sol, además de constantes lluvias que potencian el aroma de su flor"
+    "type": ["PLANTA","VENENO"],
+    "description": "Venusaur, es la evolucion de Ivysuar está basado en una rana, al igual que toda su línea evolutiva.El botón de flor que lleva sobre su lomo se abre completamente, dejando ver una enorme flor rosada,La gran flor que tiene sobre su espalda va tomando colores intensos si está llena de nutrientes y luz solar, se dice que son más poderosos en verano, estación del año donde pueden recibir más rayos de sol, además de constantes lluvias que potencian el aroma de su flor"
 },
 {
     "name": "Charmander",
     "pokedexN": "004",
     "img":    "/assets/img/pokemons/004.png",
-    "type":    "fuego",
+    "type":    ["FUEGO"],
     "description": "es un Pokémon de tipo fuego introducido en la primera generación. Es uno de los tres Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región de Kanto, junto a Bulbasaur y Squirtle."
 },
 {     
     "name": "Charmeleon",
     "pokedexN": "005",
     "img": "/assets/img/pokemons/005.png",
-    "type": "fuego",
+    "type": ["FUEGO"],
     "description": " es un Pokémon de tipo fuego introducido en la primera generación. Es la evolución de Charmander, uno de los Pokémon iniciales de los entrenadores que comienzan su aventura en la región de Kanto."
 },
 {
     "name": "Charizard",
     "pokedexN": "006",
     "img": "/assets/img/pokemons/006.png",
-    "type": "fuego/volador",
+    "type": ["FUEGO","VOLADOR"],
     "description": "La figura de Charizard es la de un dragón erguido sobre sus dos patas traseras, que sostienen su peso. Posee unas poderosas alas y un abrasador aliento de fuego. También posee un cuello largo y una poderosa cola terminada en una llama que arde con más fuerza si ha vivido duros combates, aunque al igual que con su línea evolutiva, si esta se apaga el Pokémon puede llegar a morir."
 },
 {
     "name": "Squirtle",
     "pokedexN": "007",
     "img":  "/assets/img/pokemons/007.png",
-    "type": "agua",
+    "type": ["AGUA"],
     "description": "es un Pokémon de tipo agua introducido en la primera generación. Es uno de los tres Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región de Kanto, junto a Bulbasaur y Charmander."
 },
 {
     "name": "Wartortle",
     "pokedexN": "008",
     "img": "/assets/img/pokemons/008.png",
-    "type": "agua",
+    "type": ["AGUA"],
     "description": "Wartortle es una tortuga semiacuática de una tonalidad azulada más oscura que Squirtle, su cola ha crecido bastante y ha cambiado de color hacia un azul muy claro finalizando en varias puntas enrolladas, de su cabeza ahora sobresalen dos grandes orejas con forma de alas y de la misma tonalidad de su cola, su caparazón tiene un tono café más opaco que su preevolución aunque sus placas periféricas y su plastrón siguen manteniendo los tonos blancos y crema respectivamente. Ahora sobresalen garras en los dedos de sus manos, unos colmillos de su boca, aunque sigue conservando el pico de tortuga, el iris de sus ojos pasa a ser café y su mirada se vuelve más fiera."
 },
 {
     "name": "Blastoise",
     "pokedexN": "009",
     "img": "/assets/img/pokemons/009.png",
-    "type": "agua",
+    "type": ["AGUA"],
     "description": "Blastoise está basado en una tortuga con dos cañones. Es una enorme tortuga bípeda, que puede extender unos poderosos cañones situados en su espalda para disparar potentes chorros de agua, con la fuerza suficiente para quebrar muros de hormigón o hacer agujeros en planchas de acero. Para evitar el retroceso, planta firmemente sus patas traseras en el suelo antes de usar sus cañones, además de subir deliberadamente de peso. Incluso se le ha visto usar la presión del agua de sus cañones para poder volar. Su tonalidad es todavía un poco más oscura que la de Wartortle. Posee un grueso cráneo y mandíbula que le sirven para usar movimientos como mordisco o cabezazo."
 },  
 {
     "name": "Caterpie",
     "pokedexN": "010",
     "img": "/assets/img/pokemons/010.png",
-    "type": "bicho",
+    "type": ["BICHO"],
     "description": "Caterpie podría estar basado en una oruga del género Papilio, orugas con un diseño que imita grandes ojos como los de Caterpie y un par de apéndices sobre la cabeza muy similares a las antenas de Caterpie, que suelen mostrar cuando se sienten amenazadas Papilio. Tiene pequeños pies con ventosas en sus extremos que le permiten trepar árboles y paredes sin mucho esfuerzo. Es un Pokémon bastante común, sobre todo por la zona de Kanto. Caterpie es un Pokémon relativamente débil y como tal ha desarrollado adaptaciones para su supervivencia."
 },
 {
     "name": "Metapod",
     "pokedexN": "011",
     "img": "/assets/img/pokemons/011.png",
-    "type": "bicho",
+    "type": ["BICHO"],
     "description": "Metapod está basado en la crisálida de una Papilio. Su piel es de color verde intenso, en la que solamente sus ojos son visibles. Su boca es el pequeño rombo que tiene un poco debajo de la altura de sus ojos, por donde puede disparar su disparo demora.Cuando ha evolucionado recientemente de un Caterpie, su crisálida, que está hecha de quitina, es muy blanda aún, por lo que puede correr grave peligro. Usando su movimiento fortaleza su cuerpo se va volviendo cada vez más resistente. Aunque la quitina se endurece rápidamente como una plancha de hierro, Metapod todavía está en riesgo, pues un impacto puede dañar su cuerpo o hacerlo estallar hacia fuera, dejando entrever su frágil cuerpo interior. Él cual estando en estado catatónico, lo vuelve una presa que no ofrece resistencia alguna. Por esta razón, y para conservar la energía, Metapod apenas se mueve, preparándose dentro de su cáscara para su evolución inminente. Por lo cual no se recomienda llevar a Metapod a combates muy intensos."
 }, 
 {
     "name": "Butterfree",
     "pokedexN": "012",
     "img":  "/assets/img/pokemons/012.png",
-    "type": "bicho/volador",
+    "type": ["BICHO","VOLADOR"],
     "description": "Butterfree está basado en una mariposa y su forma Gigamax en mothra. Su cuerpo está dividido en dos partes: cabeza y tronco. Butterfree posee unos grandes ojos rojos, un cuerpo de color púrpura oscuro, dos pequeñas manos y dos pies de un color azul cielo. Sus alas blancas están cubiertas por un polvo tóxico y son impermeables al agua. Gracias a ellas puede volar hasta en los días con lluvia. Poseen una habilidad especial que les permite localizar a la miel, polen y el néctar de las flores, por lo que pueden alejarse hasta 10 kilómetros de su nido para ir en su búsqueda, extraerlo, adhiriéndolo con el pelo de sus patas y llevarlo de vuelta a su nido. Para defenderse de sus enemigos sueltan polvillos tóxicos de sus alas que se dispersan por el aire. Son Pokémon muy amistosos con los de su línea evolutiva, por lo que si ven a un Caterpie en peligro debido a algún Pokémon pájaro, no dudará en defenderle."
 },
 {
     "name": "Weedle",
     "pokedexN": "013",
     "img": "/assets/img/pokemons/013.png",
-    "type": "bicho",
+    "type": ["BICHO"],
     "description": "Este Pokémon insecto tiene la forma de un gusano con un cuerno que segrega veneno en la punta de su aguijón de 5 cm que tiene en la frente, que puede utilizar para defenderse de sus depredadores. Por ello, y por el color de su cuerpo, hace que muchos Pokémon eviten confrontarse con él. La punta de su cola también tiene esta habilidad. Weedle se puede encontrar comúnmente en bosques, prados y pastizales, generalmente ocultos en arbustos, o trepándose a los troncos de los árboles, mientras se alimenta de sus hojas. Tiene un sentido del olfato muy desarrollado debido a su enorme nariz roja en forma de bola, que puede utilizar para encontrar los tipos de hoja que le gustan más, como las hojas de ginkgo. Además de hojas, se le ha visto alimentarse de papel y cartón. La mayor parte de su tiempo la usará para alimentarse pues suele comer el equivalente de su peso en hojas todos los días."
 },
 {
     "name":  "Kakuna",
     "pokedexN": "014",
     "img": "/assets/img/pokemons/014.png",
-    "type": "bicho",
+    "type": ["BICHO"],
     "description": "Kakuna está basado en una pupa de avispa. Es una especie de capullo muy duro, de color amarillo, con dos enormes ojos de color negro con forma triangular, tiene dos brazos en forma de guadaña en el medio de su cuerpo. Kakuna habita en zonas de hierba alta y en las zonas arboladas como en bosques para aprovechar el follaje como escondite, como último recurso, si es encontrado y atacado usará un aguijón o púa venenosa para defenderse, pues a pesar de que su pupa es dura, su cuerpo en el interior es muy frágil. En algunas ocasiones se les ha visto ocultos en zonas cercanas a colmenas de Beedrill para que estos los defiendan de posibles ataques"
 },
 {
     "name": "Beedril",
     "pokedexN": "015",
     "img": "/assets/img/pokemons/015.png",
-    "type": "bicho/veneno",
+    "type": ["BICHO","VOLADOR"],
     "description": "Beedrill está basado en una avispa japonesa, comparte muchas características con las avispas y abejas, de forma que también es parecido a Combee y Vespiquen. Es bastante territorial, si su colmena es molestada o invadida comenzarán a atacar en un furioso enjambre. Es muy veloz y poderoso, zumbando y atacando a una velocidad vertiginosa, mientras hace uso de sus grandes aguijones venenosos de sus patas delanteras y de su cola. Cuando crecen y aprenden doble ataque se vuelven prácticamente intocables. Son de carácter agresivo. Su fuerza e ímpetu de ataque puede ser tal que puede llegar a traspasar puertas de madera."
 },
 {
     "name": "Pidgey",
     "pokedexN": "016",
     "img":  "/assets/img/pokemons/016.png",
-    "type": "normal/volador",
+    "type":  ["VOLADOR","NORMAL"],
     "description": "Pidgey es un ave Pokémon de color marrón y crema, y con un pequeño pico y patas fuertes. Su aspecto y colores se asemejan al de un ampelis americano, también recuerda al gorrión molinero. Las alas cortas y robustas de Pidgey le ayudan a volar con facilidad entre las ramas de los árboles, agitándolas rápidamente provoca ráfagas de arena e incluso pequeños tornados que les sirven para ahuyentar a sus enemigos y evitar los problemas. Su pico corto y afilado es muy útil para atrapar pequeños Pokémon gusano como Caterpie que a palabras de la Pocket Monsters Encyclopedia, son su presa principal, los Pidgey tienen que ser muy veloces ya que tienen que cazarlos antes de que estos se entierren. Mientras se dan un festín con Weedle y Caterpie, extrañamente ignoran a los Venonat."
 },
 {
     "name": "Pidgeotto",
     "pokedexN": "017",
     "img": "/assets/img/pokemons/017.png",
-    "type": "normal/volador",
+    "type": ["VOLADOR","NORMAL"],
     "description": "Los Pidgeotto son aves grandes, quizá basadas en aves de presa y pescadoras, con garras afiladas, una cola de plumas rojas y amarillas, así como una cresta roja en su cabeza. Es bastante parecido a su evolución final, Pidgeot. La diferencia entre los dos es que las plumas en la cabeza de Pidgeot son más largas que las de Pidgeotto, Pidgeot es mucho más grande y las plumas de su cola son ahora solamente de color naranja. A diferencia de Pidgey, los Pidgeotto son extremadamente territoriales, generalmente en un área grande con sus nidos construidos en el centro."
 },
 {
     "name": "Pidgeot",
     "pokedexN": "018",
     "img": "/assets/img/pokemons/018.png",
-    "type": "normal/volador",
+    "type": ["VOLADOR","NORMAL"],
     "description": "Los Pidgeot se asemejan a sus preevoluciones, aunque siendo de mayor tamaño y con un penacho de plumas sumamente largo y su cola con un tono rojizo uniforme. Posee una excelente vista que usa al momento de cazar.Es un Pokémon principalmente piscívoro con Magikarp como su presa favorita, volando a ras del agua para agarrarlos desprevenidos o cuando estos saltan del agua con sus grandes garras. Los músculos de sus alas son lo bastante poderosos para poder hacerlo volar a una velocidad de Mach 2 o crear ventiscas y ráfagas de aire capaces de doblar los árboles más altos. Gracias a estos es capaz de mantener el vuelo a una altitud de un kilómetro. Este Pokémon tiene un plumaje muy bonito e hipnótico en la cabeza lo que provoca que muchos entrenadores queden extasiados con su belleza, ocasionando que sean elegidos por ellos para tenerlos en su equipo. Con su tamaño y despegando sus grandes alas puede acobardar a sus enemigos.A diferencia de sus preevoluciones se les puede encontrar más en solitario o liderando una bandada de Pidgey y Pidgeotto, siendo más territoriales con otros grandes Pokémon "
 },
 {
     "name": "Ratata",
     "pokedexN": "019",
     "img": "/assets/img/pokemons/019.png",
-    "type": "normal",
+    "type": ["NORMAL"],
     "description": "Rattata es un Pokémon con forma de ratón, de una tonalidad púrpura con el vientre de color crema. Tiene dos grandes dientes incisivos y unos largos bigotes en las mejillas. Los machos tienen esos bigotes más largos que las hembras. También tienen dos grandes orejas redondeadas y una cola que se enrolla en su punta.Son Pokémon muy pequeños y rápidos. Pueden ser vistos en muchos sitios, desde prados y bosques, hasta grandes ciudades. Viven en grandes grupos, se establecen en lugares donde haya comida y se reproducen continuamente. Por eso es conocido el dicho de que si ves uno, seguro que encuentras 40 ejemplares más en la zona. Hace madrigueras para poder dormir, y es lo bastante cauto moviendo las orejas para detectar ruidos hasta cuando duerme o cuando está robando comida a viajeros tontos"
 },
 {
     "name": "Raticate",
     "pokedexN": "020",
     "img":  "/assets/img/pokemons/020.png",
-    "type": "normal",
+    "type": ["NORMAL"],
     "description": "Raticate se asemeja a una rata noruega o rata marrón. Tiene la piel marrón claro y una larga cola. Sus colmillos son grandes, duros y firmes, y le permiten roer cualquier cosa. Nunca le dejan de crecer, por lo tanto, para reducirlos y mantenerlos afilados, roe rocas, troncos y paredes de hormigón de algunos edificios o casas.Raticate se caracteriza por sus enormes bigotes que le ayudan a guardar el equilibrio. Si estos fuesen cortados, tendría que caminar más despacio, de lo contrario, terminaría perdiendo el equilibrio. Sus patas traseras cuentan con tres dedos palmeados cada una, lo que le permiten utilizarlos de aletas para nadar por los ríos en busca de alimento o para escapar de sus depredadores"
 },
 {
     "name": "Spearow",
     "pokedexN": "021",
     "img":  "/assets/img/pokemons/021.png",
-    "type": "normal/volador",
+    "type": ["NORMAL","VOLADOR"],
     "description": "Spearow tiene una forma parecida a la de un gorrión castaño. Tiene muchas tonalidades en su plumaje, siendo marrón en la cabeza y cola, negro en el lomo, crema en el vientre y rojizo en las alas, con las puntas de estas un poco más claras. Tiene una mirada fiera, así como un gancho en su pico característico de algunas aves de presa.Gusta de alimentarse de bichos en las zonas de hierba alta. Sus alas son muy pequeñas, por lo que le impiden volar muy alto o a grandes distancias. Sin embargo, es lo suficientemente veloz para protegerse de algún ataque. A diferencia de Pidgey, se trata de un Pokémon muy territorial y temperamental que no dudará en abalanzarse a su rival con aleteos y chillidos, aunque este sea más grande. Si se ve superado, puede piar con tanta fuerza que se le puede oír a un kilómetro de distancia. Si el chillido hace eco, es un indicador de que otros Spearow le han contestado el aviso de peligro. A pesar de ser pequeño puede ser un rival de temer con su movimiento espejo."
 },
 {
     "name":  "Fearow",
     "pokedexN": "022",
     "img": "/assets/img/pokemons/022.png",
-    "type": "normal/volador",
+    "type": ["NORMAL","VOLADOR"],
     "description": "Este Pokémon, con forma de una gran ave, tiene una tonalidad marrón con plumas más claras en la punta de sus alas y en su espalda. Tiene un cuello y picos largos y delgados. Sobre su cabeza tiene una cresta con cinco puntas, además de una mirada feroz. Usa sus enormes y magnificas alas para alcanzar gran altura y seguir volando por un día entero sin tener que aterrizar a descansar. Su pescuezo y pico largos le permiten cazar en tierra y en el agua, usando este último con gran habilidad para capturar a sus presas, las cuales pueden ser insectos que se ocultan bajo tierra o peces en mantos acuíferos,"
 },
 {
     "name": "Ekans",
     "pokedexN": "023",
     "img":  "/assets/img/pokemons/023.png",
-    "type": "veneno",
+    "type": ["VENENO"],
     "description": "Este Pokémon esta basado en una serpiente, por su apariencia se asemeja a una serpiente de cascabel, sin embargo Ekans no es venenoso. De tonalidad púrpura tiene un cascabel en la cola, un anillo en el cuello y un vientre de color amarillo.Ekans es muy silencioso y sigiloso, suele cazar y esconderse en la hierba alta. Aunque también es un buen trepador de árboles, los cuales también usa para descansar. Su cuerpo crece indefinidamente a lo largo de toda su vida, desprendiéndose de su vieja piel, lo cual es un indicativo de su longevidad. Cuando nacen no tienen veneno por lo que su mordisco aunque es doloroso no representa ningún peligro. Su comida favorita son los huevos de Pidgey y Spearow, los considera un manjar. Como se los traga enteros a veces se atraganta y pierde el conocimiento. Sin embargo, no dudará en acechar y atacar por la espalda a algún Pokémon roedor o pájaro. Si se tragan a un Rattata pueden estar sin comer durante todo un mes. Para engullir a su presa puede separar su mandíbula para hacer que su boca se expanda, pudiendo tragar presas tan grandes como él, aunque eso le dificultará el movimiento."
 },
 {
     "name": "Arbok",
     "pokedexN": "024",
     "img":  "/assets/img/pokemons/024.png",
-    "type": "veneno",
+    "type":  ["VENENO"],
     "description": "Arbok parece estar inspirado en la cobra de anteojos. De color púrpura en todo su cuerpo, posee una capucha que, a diferencia de una cobra real, no se puede retraer. Su cuerpo parece segmentado con varias líneas de una tonalidad más oscura. Posee colmillos venenosos en su boca y una fina lengua bífida.El diseño de los dibujos de la panza de Arbok puede variar de un área a la otra, según algunos estudios se han encontrado una veintena de variaciones, de las cuales seis han sido confirmadas con las cuales haciendo uso hábilmente de deslumbrar puede paralizar a su presa para después enroscarla con su cuerpo y estrujarla con un asfixiante abrazo, si esto no fuese suficiente también puede optar por envenenarla. Es de naturaleza vengativa y obstinada, si su presa escapase antes de ser atrapada, no cejará la persecución y le seguirá sin importar a donde vaya. La fuerza del estrujón de Arbok es tan potente que es capaz de oprimir un barril de acero. Los patrones de su cuerpo en forma de 'rostro' son suficientes para ahuyentar a los enemigos más débiles, para los más fuertes se hinchará su pecho y emitirá sonidos echando aire por la boca para intimidarlos."
 },
 {
     "name": "Pikachu",
     "pokedexN": "025",
     "img":   "/assets/img/pokemons/025.png",
-    "type": "electrico",
+    "type": ["ELECTRICO"],
     "description": "Pikachu es un pequeño Pokémon cuya morfología se encuentra basada en un roedor. Aunque su nombre y su categoría hagan alusión a un ratón, según su diseñadora, sus mejillas están basadas en las de una ardilla. Su cuerpo es de color amarillo con dos rayas marrones en su espalda y en la base de la cola. La punta de sus orejas de color negro, y presenta un gran círculo rojo en cada una de sus mejillas. Tiene una cola con forma de rayo si es macho y en forma de corazón si es hembra.Pikachu almacena una gran cantidad de electricidad en las bolsas que tiene en sus mejillas. Estas parecen cargarse eléctricamente durante la noche mientras duerme. En ocasiones libera electricidad estando medio dormido,"
 },
 {
     "name": "Raichu",
     "pokedexN": "026",
     "img":   "/assets/img/pokemons/026.png",
-    "type": "electrico",
+    "type": ["ELECTRICO"],
     "description": "Este Pokémon es un gran roedor bípedo. Tiene un pelaje anaranjado, una cola oscura y gruesa como un cable de tendido eléctrico que termina en forma de rayo y totalmente plana, que además puede soportar grandes cargas. Tiene un vientre de tono claro y unos mofletes amarillos, que producen la energía eléctrica que se conduce a la cola de Raichu para ser liberada en forma de potentes ataques tipo eléctrico. Sus orejas son grandes y están parcialmente enrolladas. Almacena la carga acumulada en sus mejillas, exactamente igual a su preevolución Pikachu."
 },
 {
     "name": "Sandshrew",
     "pokedexN": "027",
     "img": "/assets/img/pokemons/027.png",
-    "type": "tierra",
+    "type": ["TIERRA"],
     "description": "Pese a su nombre, la apariencia de Sandshrew es más semejante a la de un armadillo o un pangolín que a la de una musaraña. Es una criatura pequeña, amarilla y de apariencia similar a un armadillo cubierto de placas duras y con garras afiladas. Sus ojos son grandes y negros.El entorno natural de Sandshrew son los lugares profundos bajo tierra en localizaciones áridas con muy poca humedad, siendo los desiertos el ejemplo más claro, aunque también se encuentra en praderas secas. Elige este hábitat para mantenerse seco, mientras que la arena le provee con un buen camuflaje."
 },
 {
     "name": "Sandslash",
     "pokedexN": "028",
     "img": "/assets/img/pokemons/028.png",
-    "type": "tierra",
+    "type": ["TIERRA"],
     "description": "Sandslash habita en las mismas zonas áridas que su preevolución Sandshrew, en madrigueras. A veces se les puede ver trepando árboles con sus garras por varias razones, ya sea para dormir en su follaje, cortar y dejar caer bayas para los Sandshrew que esperan debajo o usarlos como escondite de caza, cuando avista una presa, se convierte en una bola de púas y se deja caer sobre ella."
+},
+{
+    "name": "Sandslash",
+    "pokedexN": "155",
+    "img": "/assets/img/pokemons/028.png",
+    "type": ["TIERRA"], 
+    "description": ""
+},
+{
+    "name": "Sandslash",
+    "pokedexN": "300",
+    "img": "/assets/img/pokemons/028.png",
+    "type": ["TIERRA"],
+    "description": ""
 }
 
 ]

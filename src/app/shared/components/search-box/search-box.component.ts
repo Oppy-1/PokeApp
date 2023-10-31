@@ -20,7 +20,7 @@ public onDebouncer =new EventEmitter<string> ();
 
 ngOnInit(): void {
   this.debouncerSuscription = this.debouncer.pipe(
-    debounceTime(300)
+    debounceTime(100)
   ).subscribe(value => this.onDebouncer.emit(value));
 }
 ngOnDestroy(): void {

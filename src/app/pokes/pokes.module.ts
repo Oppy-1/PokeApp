@@ -8,11 +8,13 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { InformacionComponent } from './pages/informacion/informacion.component';
 
 
+
 import { PokeballsComponent } from './pages/pokeballs/pokeballs.component';
 import { MaterialModule } from '../material/material.module';
 import { FormsModule } from '@angular/forms';
 import { searchboxComponent } from '../shared/components/search-box/search-box.component';
 import { DataComponent } from './pages/data/data.component';
+import { PassPagePipe } from './pipes/pass-page.pipe';
 
 
 
@@ -25,12 +27,13 @@ import { DataComponent } from './pages/data/data.component';
     PokeballsComponent,
     searchboxComponent,
     DataComponent,
+    PassPagePipe,
   ],
   imports: [
     CommonModule,
     PokesRoutingModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
   ]
 })
 export class PokesModule { }

@@ -12,7 +12,7 @@ export class InformacionComponent {
   name: '',
   pokedexN: 0,
   img: '',
-  type: '',
+  type: [''],
   description: ''
 }
 }
