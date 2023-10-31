@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Pokemon } from 'src/app/common/interfaces/pokemon.interface';
 
 @Component({
   selector: 'app-informacion',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
   ]
 })
 export class InformacionComponent {
-
+@Input() pokemon: Pokemon = {
+  name: '',
+  pokedexN: 0,
+  img: '',
+  type: [''],
+  description: ''
+}
 }

@@ -1,0 +1,28 @@
+<div class="container flex" *ngIf="show">
+  <img [src]="pokemonData.img" width="500px" height="500px" />
+
+  <div class="card-text flex flex-column align-items-center">
+    <h1>Nombre: {{ pokemonData.name }}</h1>
+
+    <h2>Tipo:</h2>
+    <div class="flex inline-flex align-items-center	gap-2">
+    <div *ngFor="let type of pokemonData.type; let i = index">
+      <button  
+        mat-raised-button
+        [ngStyle]="{ 'background-color': getColors(pokemonData.type[i])[0]}">
+        {{ pokemonData.type[i] }}
+      </button>
+    </div>
+  </div>
+    <h3>Descripcion:</h3>
+    <p>
+      {{ pokemonData.description }}
+    </p>
+    <button
+mat-button mat-flat-button color="primary"
+ (click)="goBack()">
+ Volver
+</button>
+  </div>
+</div>
+

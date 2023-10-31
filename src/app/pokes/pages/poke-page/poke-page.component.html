@@ -1,35 +1,63 @@
-<h1 class="text-center">Poke Info</h1>
-<h3 class="text-center">seleccion la generacion que prefiera y podra ver todos los pokemones de esa generacion</h3>
+<div *ngIf="!showInformation">
+  <h1 class="text-center">Poke Info</h1>
+  <h3 class="text-center">
+    seleccion la generacion que prefiera y podra ver todos los pokemones de esa
+    generacion
+  </h3>
+<div class="flex justify-content-center">
+  <mat-form-field  class="col-6 text-base p-3 ">
+  <mat-label>Seleccione una generacion</mat-label>
+  <mat-select>
+    <mat-option value="opcion1">primera generacion</mat-option>
+    <mat-option value="opcion2">segunda generacion</mat-option>
+    <mat-option value="opcion2">tercera generacion</mat-option>
+  </mat-select>
+</mat-form-field>
+</div>
+  <hr color="#202020" />
+  <search-box-component (onDebouncer)="getPokemons($event)" />
+  <div class="container">
+    <div *ngFor="let pokemon of pokemons | passPage : page">
+      <div
+        class="text-center cursor-pointer border-solid mx-2 p-1 gap-1"
+        (click)="choosePokemon(pokemon)"
+        [ngStyle]="{ 'background-color': getColors(pokemon.type[0])[0] }"
+      >
+        <p class="flex align-items-center justify-content-center">
+          n.º{{ pokemon.pokedexN }}
+        </p>
+        <img [src]="pokemon.img" width="200px" height="200px" />
 
-  
-    <form action="/submit_form " method="post" class="text-center  ">
-        <select name="opciones" id="opciones" class="border-solid col-6 text-base p-3 ">
-            <option value="">--Seleccione una generacion --</option>
-            <option value="opcion1"> primera generacion</option>
-            <option value="opcion2">segunda generacion</option>
-            <option value="opcion3"> tercera generacion</option>
-        </select>
-    </form>
-    <hr color="#202020">
-  <app-searchbox 
-  placeholder="Busque pokemon o tipo"
-  (onValue)="searchbycapital($event)"
-  />
-    <div *ngFor="let pokemon of pokemons">
-     {{pokemon.description}}
-    <div class="row">
-        <div   class="col-md-3 col-sm-6">
-          <div class="card mb-2 text-center bg-dark">
-                 <img class="card-img-top" [src]="pokemon.img">
+        <div class="card-body text-white">
+          <p class="card-text">
+            {{ pokemon.name }}
+          </p>
 
-            <div class="card-body text-white">
-              <p class="card-text">
-                {{pokemon.name}}
-                {{pokemon.type}} 
-               </p>
-            </div>
-      
-          </div>    
+          <div
+            *ngFor="let img of pokemon.type; let i = index"
+            class="flex inline-flex align-items-center"
+          >
+            <img
+              [src]="getColors(pokemon.type[i])[1]"
+              width="30px"
+              height="30px"
+            />
+            {{ pokemon.type[i] }}
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  <div class="flex justify-content-center justify-content-evenly">
+    <button mat-button mat-flat-button color="primary" (click)="priviusPage()">
+      Anteriores
+    </button>
+    <button mat-button mat-flat-button color="primary" (click)="nextPage()">
+      Siguentes
+    </button>
+  </div>
+</div>
+
+<div>
+  <pokemon-data [(show)]="showInformation" [pokemonData]="selectedPokemon" />
+</div>

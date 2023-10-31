@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
   ]
 })
 export class LayoutPageComponent {
+
   public sidebarItems = [
     { label: 'Listado', icon: 'label', url: './poke' },
     { label: 'pokeballs', icon: 'add', url: './pokeballs' },
     { label: 'Buscar', icon: 'search', url: './search' },
   ]
+
 }
