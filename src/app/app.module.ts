@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { SharedModule } from './shared/shared.module';
-
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

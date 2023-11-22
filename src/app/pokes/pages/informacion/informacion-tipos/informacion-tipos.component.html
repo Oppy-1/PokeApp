@@ -1,0 +1,42 @@
+<div class="flex flex-col items-center" *ngIf="show">
+  <div class="flex flex-row gap-10">
+    <img [src]="typesInfo.img" width="300px" height="250px" />
+    <div class="flex flex-col">
+      <h1>Tipo: {{ typesInfo.type}}</h1>
+      <div class="flex gap-3">
+        <h1>Fuerte contra:</h1>
+        <div *ngFor="let type of typesInfo.strong; let i = index">
+          <button mat-raised-button
+          [ngStyle]="{ 'background-color': getColors(typesInfo.strong[i])[0] }">
+            {{ typesInfo.strong[i] }}
+          </button>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <h1>Daño reducido a:</h1>
+        <div *ngFor="let type of typesInfo.ineffective; let i = index">
+          <button mat-raised-button
+          [ngStyle]="{ 'background-color': getColors(typesInfo.ineffective[i])[0] }">
+            {{ typesInfo.ineffective[i] }}
+          </button>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <h2>Debil contra:</h2>
+        <div *ngFor="let type of typesInfo.weak; let i = index">
+          <button mat-raised-button
+          [ngStyle]="{ 'background-color': getColors(typesInfo.weak[i])[0] }">
+            {{ typesInfo.weak[i] }}
+          </button>
+        </div>
+      </div>
+      <h2>Inmune a:{{ typesInfo.immune }}</h2>
+    </div>
+  </div>
+  <div class="flex flex-col items-center ml-10 text-lg">
+  <h2>Informacion</h2>
+  <p>{{ typesInfo.information }}</p>
+  <h2>Habilidades</h2>
+  <p>{{ typesInfo.hability }}</p>
+</div>
+</div>

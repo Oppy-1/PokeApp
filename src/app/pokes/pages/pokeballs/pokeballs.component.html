@@ -1,1 +1,19 @@
-<p>pokeballs works!</p>
+<div *ngIf="!showPokeballs">
+  <div class="flex flex-col items-center">
+  <H1>Informacion de todas las pokeballs</H1>
+    <h2>De los juegos y el anime</h2>
+  </div>
+<div class="container flex flex-wrap gap-2 justify-center"> 
+<div *ngFor="let pokeballs of pokeball"> 
+            <div class="card mb-4 text-center cursor-pointer border-solid border-black border rounded-2xl bg-slate-500  mx-2 p-4" (click)="selectPokeballs(pokeballs)">
+              <p class=" text-2xl"> {{pokeballs.generation}} Generacion</p>
+              <img [src]="pokeballs.img" width="250px" height="250px" />
+                <p
+                class="text-2xl">
+               {{ pokeballs.name }}
+              </p>
+            </div>
+        </div>
+  </div>
+</div>
+<pokeballs-info [(show)]="showPokeballs" [pokeballInfo]="selectPokeball"/>

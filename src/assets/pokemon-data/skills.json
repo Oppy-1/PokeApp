@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Rayo solar",
+      "power": "120",
+      "percent": "100%",
+      "description": "Precisa un turno de carga, salvo en Día Soleado. En Llovizna, Granizo y Tormenta de Arena su poder base es la mitad.",
+      "type": "Planta"
+    },
+    {
+      "name": "Planta feroz",
+      "power": "150",
+      "percent": "90%",
+      "description": "impide al usuario usar un movimiento o ser intercambiado en el siguiente turno.",
+      "type": "Planta"
+    },
+    {
+      "name": "llueve hojas",
+      "power": "130",
+      "percent": "90%",
+      "description": "100% de reducir dos niveles el Ataque Especial al usuario.",
+      "type": "Planta"
+    },
+    {
+      "name": "Mazazo",
+      "power": "120",
+      "percent": "100%",
+      "description": "Provoca un daño de retroceso al usuario equivalente al 33% del daño provocado al rival",
+      "type": "Planta"
+    },
+    {
+      "name": "Latigazo",
+      "power": "120",
+      "percent": "85%",
+      "description": "ninguno",
+      "type": "Planta"
+    },
+    {
+      "name": "Drenadoras",
+      "power": "",
+      "percent": "90%",
+      "description": "Hace perder al rival un 12.5% de su PS cada turno, y lo transfiere a nuestro Pokémon. Inefectivo contra Pokémon de tipo Planta.",
+      "type": "Planta"
+    }
+  
+  ]

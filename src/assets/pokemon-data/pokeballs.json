@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Poke-Ball",
+    "ratio": "x1",
+    "generation": "Primera",
+    "price": 200,
+    "img": "/assets/img/pokeballs/pokeball.png",
+    "info": "La Poke ball es un tipo de Poké Ball introducido en la primera generación. Se puede considerar como la ball más común de todas y está presente en todos los videojuegos principales.Fue desarrollada por Silph S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color rojo y blanco, con una banda negra en la unión entre las dos mitades."
+  },
+  {
+    "name": "Super-Ball",
+    "ratio": "x1,5",
+    "generation": "Primera",
+    "price": 600,
+    "img": "/assets/img/pokeballs/superball.png",
+    "info": "La Super Ball  es un tipo de Poké Ball introducido en la primera generación. Tiene más índice de éxito que la Poké Ball, pero menos que la Ultra Ball. Por ende, es la intermedia en el uso general. Fue desarrollada por Silph S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera de color azul y blanco, con bandas rojas a los lados, en la parte superior."
+  },
+  {
+    "name": "Ultra-Ball",
+    "ratio": "x2",
+    "generation": "Primera",
+    "price": 800,
+    "img": "/assets/img/pokeballs/ultraball.png",
+    "info": "La Ultra Ball  es un tipo de Poké Ball introducido en la primera generación. Tiene más índice de éxito que la Super Ball. Por ende, es la más eficaz en el uso general.Fue desarrollada por Silph S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color negra y blanca, con una decoración en amarillo en la parte superior. Esta decoración, si es vista desde arriba, tiene forma de H, por su nombre en japonés."
+  },
+  {
+    "name": "Master-Ball",
+    "ratio": "x255",
+    "generation": "Primera",
+    "price": "No tiene precio",
+    "img": "/assets/img/pokeballs/masterball.png",
+    "info": "La Master Ball  es un tipo de Poké Ball introducido en la primera generación. Es la mejor de todas, ya que gracias a su ratio de captura nunca falla. Capturará a cualquier Pokémon sin importar el nivel, los PS o problemas de estado que posea.Por lo general, solo se entrega una en cada juego (con algunas excepciones) y es posible ganarla en la lotería. Fue desarrollada por Silph S.A., al igual que las demás Poké Ball de su generación. Con respecto a sus características, puede decirse que se trata de una esfera color morado y blanco, con dos zonas rosadas y una «M» blanca en la parte superior."
+  },
+  {
+    "name": "Safari-Ball",
+    "ratio": "x1,5",
+    "generation": "Primera",
+    "price": "30 por 500",
+    "img": "/assets/img/pokeballs/safariball.png",
+    "info": "La Safari Ball  es un tipo de Poké Ball introducido en la primera generación. Como su nombre lo indica, se utiliza únicamente en la Zona Safari y sirve para capturar a los Pokémon existentes en las distintas áreas de la misma, durante el transcurso del tiempo permitido; además, posee el mismo ratio de captura que una Super Ball. Al entrar en el Safari, solo se entregan 30 unidades, de manera que las sobrantes se retiran al agotarse el tiempo o abandonar la zona.Fue desarrollada por Silph S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color blanco en la mitad inferior y cuya parte superior es similar al camuflaje militar."
+  },
+  {
+    "name": "Rapid-Ball",
+    "ratio": "Si es usada contra Pokémon que pueden huir del combate, tendrá un ratio de x4",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/rapidball.png",
+    "info": " La Rapid Ball es un tipo de Poké Ball introducido en la segunda generación. Sirve para capturar a los Pokémon que huyen con facilidad (O/P/C) o con alta velocidad (HG/SS).Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris blancos. Con respecto a sus características, puede decirse que se trata de una esfera color rojo y blanco, decorada con un rayo amarillo en la parte superior y zonas de igual color en ambos lados."
+  },
+  {
+    "name": "Nivel-Ball",
+    "ratio": "Si el nivel del Pokémon del usuario es mayor que el del objetivo, el ratio será x2,Si el nivel del Pokémon del usuario es el doble o más que el del objetivo, el ratio será x4,Si el nivel del Pokémon del usuario es cuatro veces o más que el del objetivo, el ratio será x8.",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/nivelball.png",
+    "info": "La Nivel Ball  es un tipo de Poké Ball introducido en la segunda generación. Resulta muy útil si el Pokémon que se quiere atrapar es de nivel inferior al del usuario, ya que su diseño es exclusivo para este tipo de capturas.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris rojos. Con respecto a sus características, puede decirse que se trata de una esfera color negro y amarillo, decorada con una flecha roja en la mitad superior, y color blanco en la inferior."
+  },
+  {
+    "name": "Cebo-Ball",
+    "ratio": "x5",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/ceboball.png",
+    "info": "La Cebo Ball es un tipo de Poké Ball introducido en la segunda generación. Ésta, aumenta las posibilidades de atrapar a los Pokémon que fueron pescados con una caña.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris azules. Con respecto a sus características, puede decirse que se trata de una esfera color azul y rojo, con líneas verticales decorativas en la mitad superior, y color blanco en la inferior."
+  },
+  {
+    "name": "Peso-Ball",
+    "ratio": "La Peso Ball afecta el ratio de captura del Pokémon dependiendo del peso que éste tenga: Mientres mas pese mas eficaz sera.",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/pesoball.png",
+    "info": "La Peso-Ball es un tipo de Poké Ball introducido en la segunda generación. Como su nombre lo indica, resulta útil para capturar Pokémon pesados como Snorlax, Lugia, Gyarados y Lapras, entre otros.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris negros. Con respecto a sus características, puede decirse que se trata de una esfera color gris y blanco, con decoraciones en forma de semiesferas azules en ambos lados."
+  },
+  {
+    "name": "Amor-Ball",
+    "ratio": "x8",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/amorball.png",
+    "info": "La Amor Ball es un tipo de Poké Ball introducido en la segunda generación. Aumenta la probabilidad de capturar un Pokémon de la misma especie que el utilizado por el usuario, siempre y cuando sean del género opuesto.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris rosas. Con respecto a sus características, puede decirse que se trata de una esfera color rosado y blanco, decorada con un corazón -en tonalidades mas claras- en la mitad superior."
+  },
+  {
+    "name": "Amigo-Ball",
+    "ratio": "x1",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/amigoball.png",
+    "info": "La Amigo Ball es un tipo de Poké Ball introducido en la segunda generación. Ésta, no está relacionada directamente con la captura del Pokémon, sino que surte efecto posteriormente, aumentando la amistad de éste con su entrenador en 200 puntos. Por ende, resulta muy útil con aquellos como Golbat o Chansey -entre otros-, que necesitan un alto grado de cariño y simpatía para evolucionar.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris verdes. Con respecto a sus características, puede decirse que se trata de una esfera color verde y blanco, decorada con pétalos rojos y un punto amarillo en el frente superior."
+  },
+  {
+    "name": "Luna-Ball",
+    "ratio": "x4",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/lunaball.png",
+    "info": "La Luna Ball es un tipo de Poké Ball introducido en la segunda generación. Su especialidad está destinada a la captura de los Pokémon que evolucionan con piedra lunar como Nidorina, Nidorino, Clefairy o Jigglypuff.Al igual que las demás Poké Balls de su generación (a excepción de la Competi Ball), fue fabricada por el artesano César de Pueblo Azalea, utilizando bonguris amarillos. Con respecto a sus características, puede decirse que se trata de una esfera color azul y negro, decorada con una luna amarilla en la mitad superior, y color blanco en la inferior."
+  },
+  {
+    "name": "Competi-Ball",
+    "ratio": "x1,5",
+    "generation": "Segunda",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/competiball.png",
+    "info": "La Competi Ball es un tipo de Poké Ball introducido en la segunda generación; anteriormente se la conocía como Parque Ball (Park Ball en inglés, パークボール en japonés). Sirve únicamente para capturar a los Pokémon del concurso de captura de bichos en el Parque Nacional, además posee el mismo ratio que una Safari Ball, por lo que podría ser mas bien, su contraparte.Esta Poké Ball es la única de su generación que no se fabrica mediante bonguris. Con respecto a sus características, puede decirse que se trata de una esfera color anaranjado y blanco, decorada con el símbolo de una Poké Ball en la mitad superior."
+  },
+  {
+    "name": "Lujo-Ball",
+    "ratio": "x1",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/lujoball.png",
+    "info": " La Lujo Ball es un tipo de Poké Ball introducido en la tercera generación. Ésta no interviene en la captura del Pokémon, sino posteriormente; además, los que son capturados con ella (o los que la heredan), ganan amistad más fácilmente que los contenidos en otra ball.Fue desarrollada por Devon S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color negro en su totalidad, con una banda roja y amarilla en la parte superior, y una dorada en la unión entre las dos mitades. A pesar de su nombre, no hay rasgos que demuestren que es un artículo de lujo, ya que se vende al mismo precio que las Poké Ball de su generación."
+  },
+  {
+    "name": "Nido-Ball",
+    "ratio": "Si el nivel del Pokémon salvaje está entre 1 y 19, el ratio será x3,9.,Si el nivel del Pokémon salvaje está entre 20 y 29, el ratio será x2,Si el nivel del Pokémon salvaje está por encima de 30, el ratio será x1.",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/nidoball.png",
+    "info": "La Nido Ball  es un tipo de Poké Ball introducido en la tercera generación. Tiene mayor efectividad con Pokémon de bajo nivel.Fue desarrollada por Devon S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color verde con bandas marrones en la mitad superior, y blanco en la inferior."
+  },
+  {
+    "name": "Honor-Ball",
+    "ratio": "x1",
+    "generation": "tercera",
+    "price": 200,
+    "img": "/assets/img/pokeballs/honorball.png",
+    "info": "La Honor Ball es un tipo de Poké Ball introducido en la tercera generación. Según su descripción en los videojuegos, se creó para conmemorar algo. Normalmente se regala una cada vez que se adquieren 10 o más Poké Balls.Fue desarrollada por Devon S.A.. Con respecto a sus características, puede decirse que se trata de una esfera color blanco en su totalidad, con una banda roja en la unión entre las dos mitades."
+  },
+  {
+    "name": "Malla-Ball",
+    "ratio": "x3,5",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/mallaball.png",
+    "info": "La Malla Ball es un tipo de Poké Ball introducido en la tercera generación. Sirve especialmente para capturar Pokémon de tipo agua y bicho, ya que resulta más efectiva con ellos. Es muy útil frente a los Surskit, Wimpod, Golisopod, Dewpider y Araquanid debido a su combinación de tipos, aunque no siempre acierte.Fue desarrollada por Devon S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color azul verdoso y blanco, con bandas negras transversales en la parte superior."
+  },
+  {
+    "name": "Turno-Ball",
+    "ratio": "Si el número de turnos que ha durado el combate está entre 1 y 9, el ratio será x1 asi el ratio sube cada 10 turnos hasta llegar a x4 en el turno 30.",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/turnoball.png",
+    "info": "La Turno Ball  es un tipo de Poké Ball introducido en la tercera generación. Aumenta su eficacia cuanto más dura el combate.Fue desarrollada por Devon S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera color blanco casi en su totalidad, con marcas rojas y un decorado color negro en la parte superior."
+  },
+  {
+    "name": "Buceo-Ball",
+    "ratio": "x3,5",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/buceoball.png",
+    "info": "La Buceo Ball es un tipo de Poké Ball introducido en la tercera generación. Aumenta las posibilidades de capturar al Pokémon si se utiliza bajo el agua, buceando. Si se usa en la superficie su eficacia será menor. En los juegos de la cuarta generación solo tiene mayor efectividad con Pokémon de tipo agua, ya que en los mismos no es posible bucear.Fue desarrollada por Devon S.A. (al igual que las demás Poké Ball de su generación). Con respecto a sus características, puede decirse que se trata de una esfera pintada con los colores del mar en forma de olas, dejando únicamente una zona blanca en la parte superior."
+  },
+  {
+    "name": "Acopio-Ball",
+    "ratio": "x3,5",
+    "generation": "tercera",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/acopioball.png",
+    "info": "La Copio Ball ) es un tipo de Poké Ball introducido en la tercera generación. Surte un curioso efecto cuando se utiliza con Pokémon que han sido capturados previamente, aumentando su probabilidad de funcionar con los mismos. Por estas propiedades, se emplea mucho en Diamante, Perla y Platino, mientras se está llevando a cabo el truco del Pokéradar para capturar Pokémon variocolores.Fue desarrollada por Devon S. A., al igual que las demás Poké Ball de su generación. Con respecto a sus características, puede decirse que se trata de una esfera color rojo y blanco, con círculos negros y amarillos en la zona central de la parte superior, posiblemente haciendo referencia a una molécula de ADN"
+  },
+  {
+    "name": "Sana-Ball",
+    "ratio": "x1",
+    "generation": "Cuarta",
+    "price": 200,
+    "img": "/assets/img/pokeballs/sanaball.png",
+    "info": "La Sana Ball es un tipo de Poké Ball introducido en la cuarta generación. Su función principal, es la de curar completamente al Pokémon una vez capturado, lo cual, solo podrá apreciarse si éste permanece en el equipo, ya que si es enviado a una caja de la PC, será curado de manera automática, independientemente de la Poké Ball con la que haya sido atrapado. Esto resulta de gran importancia para los momentos en los que se requiere utilizar al Pokémon con urgencia, aunque su ratio de captura es igual al de una Poké Ball común.Con respecto a sus características, puede decirse que se trata de una esfera color rosa en su totalidad, con decoraciones en amarillo claro en ambos lados, y color azul en la unión entre las dos mitades."
+  },
+  {
+    "name": "Ocaso-Ball",
+    "ratio": "El ratio de 3,5 solo tiene lugar en cuevas o de noche, de lo contrario el ratio es 1.",
+    "generation": "Cuarta",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/ocasoball.png",
+    "info": "La Ocaso Ball es un tipo de Poké Ball introducido en la cuarta generación. Tiene mayor eficacia por la noche o en lugares oscuros, como las cuevas; por tanto, será de gran utilidad para capturar Pokémon en estas condiciones.Con respecto a sus características, puede decirse que se trata de una esfera color negro, decorada con amplios círculos verdes, y color naranja en la unión entre las dos mitades."
+  },
+  {
+    "name": "Veloz-Ball",
+    "ratio": "Si es usada al inicio del combate (primer turno), el ratio será x5 (su ratio era x4 en la cuarta generación). Después de este turno, el ratio será de x1",
+    "generation": "Cuarta",
+    "price": 1000,
+    "img": "/assets/img/pokeballs/velozball.png",
+    "info": "La Veloz Ball es un tipo de Poké Ball introducido en la cuarta generación. Funciona mejor cuando se lanza justo al inicio de un combate.Con respecto a sus características, puede decirse que se trata de una esfera color azul en su totalidad, con decoraciones en amarillo."
+  },
+  {
+    "name": "Parque-Ball",
+    "ratio": "x255",
+    "generation": "Cuarta",
+    "price": 0,
+    "img": "/assets/img/pokeballs/parkball.png",
+    "info": "La Parque Ball es un tipo de Poké Ball exclusiva de la cuarta generación. Sirve exclusivamente para con los Pokémon del Parque Compi; nunca fallará al momento de capturarlos, puesto que estos ya lo fueron en versiones anteriores. Además, al momento de ser entregados al entrenador, conservarán la Poké Ball con la que fueron atrapados originalmente, al igual que el resto de la información relativa a su captura.Con respecto a sus características, puede decirse que se trata de una esfera color dorado y plateado, con el botón de apertura naranja y su borde amarillo, y color azul en la unión entre las dos mitades."
+  },
+  {
+    "name": "Gloria-Ball",
+    "ratio": "x1",
+    "generation": "Cuarta",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/gloriaball.png",
+    "info": "La Gloria Ball es un tipo de Poké Ball introducido en la cuarta generación. Es meramente decorativa, ya que no tiene efecto alguno. Es la Poké Ball con la que suelen haber sido capturados los Pokémon entregados por evento o regalo misterioso, como se puede comprobar en su pantalla de datos. Por ejemplo, el Shaymin entregado en las tiendas Game."
+  },
+  {
+    "name": "Ensueño-Ball",
+    "ratio": "x255 solo en el Bosque nexo",
+    "generation": "Quienta",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/ensueñoball.png",
+    "info": "La Ensueño ball es un tipo de Poké Ball introducido en la quinta generación. Sirve exclusivamente para los Pokémon del Bosque Nexo; nunca fallará al momento de capturarlos, por lo que podría considerarse como una variante de la Master Ball en el Dream World.Con respecto a sus características, puede decirse que se trata de una esfera color rosa en la mitad superior y blanco en la inferior. Los Pokémon atrapados en el RAdar Pokémon se atraparán en la Ensueño Ball."
+  },
+  {
+    "name": "Ente-Ball",
+    "ratio": "x0,1 0 x5",
+    "generation": "Septima",
+    "price": "No esta en venta",
+    "img": "/assets/img/pokeballs/enteball.png",
+    "info": " es un tipo de Poké Ball introducido en la séptima generación. Fue desarrollada por la Fundación Æther para la captura de los ultraentes, usando enormes cantidades de dinero en el proyecto."
+  }
+  
+]

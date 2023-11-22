@@ -1,39 +1,51 @@
 <div *ngIf="!showInformation">
-<h1 class="text-center">Poke Info</h1>
-<h3 class="text-center">seleccion la generacion que prefiera y podra ver todos los pokemones de esa generacion</h3>
-  
-    <form action="/submit_form " method="post" class="text-center  ">
-        <select name="opciones" id="opciones" class="border-solid col-6 text-base p-3 ">
-            <option value="">--Seleccione una generacion --</option>
-            <option value="opcion1"> primera generacion</option>
-            <option value="opcion2">segunda generacion</option>
-            <option value="opcion3"> tercera generacion</option>
-        </select>
-    </form>
-    <hr color="#202020">
-<search-box-component (onDebouncer)="getPokemons($event)"/> <!--(onValue)="pokename($event) 'showInformation= !showInformation'"-->
-<div class="container">
-    <div *ngFor="let pokemon of pokemons" >
-    <div class="row">
-        <div  class="col-md-2 col-sm-6">
-          <div class="card mb-2 text-center bg-dark cursor-pointer" (click)="choosePokemon(pokemon)">
-                 <img class="card-img-top" [src]="pokemon.img " width=200px height="200px">
+  <h1 class="text-center">Poke Info</h1>
+  <h3 class="text-center">
+    seleccion la generacion que prefiera y podra ver todos los pokemones de esa
+    generacion
+  </h3>
+  <div class="flex justify-center">
+    <poke-select
+      [options]="generationsOptions"
+      (selectUser)="generationChange($event)"
+    />
+  </div>
+  <search-box-component (onDebouncer)="getPokemons($event)" />
+  <hr color="#202020" />
+  <spinner class="flex justify-center" *ngIf="loadingInfo;else loadPokemons"/>
+  <ng-template #loadPokemons>
+  <div class="container">
+    <div *ngFor="let pokemon of filteredPokemons">
+      <div
+        class="text-center cursor-pointer border-solid border-2 mb-2  p-1 "
+        (click)="choosePokemon(pokemon)"
+        [ngStyle]="{ 'background-color': getColors(pokemon.type[0])[0] }"
+      >
+        <p class="items-center justify-center">n.º{{ pokemon.pokedexN }}</p>
+        <img [src]="pokemon.img" class="w-[200px] h-[200px]" />
 
-            <div class="card-body text-white">
-              <p class="card-text">
-                {{pokemon.pokedexN}}
-                {{pokemon.name}}
-                {{pokemon.type}} 
-               </p>
-            </div>
-      
-          </div>    
+        <div class="card-body text-white">
+          <p class="card-text text-center pb-1">
+            {{ pokemon.name }}
+          </p>
+
+          <div
+            *ngFor="let img of pokemon.type; let i = index"
+            class="items-center inline-flex"
+          >
+            <img
+              [src]="getColors(pokemon.type[i])[1]"
+              width="30px"
+              height="30px"
+            />
+            <span>{{ pokemon.type[i] }}</span>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+</ng-template>
 </div>
-</div>
-<div *ngIf="showInformation"> 
-<pokemon-data  [pokemonData]="selectedPokemon"/>
-
+<div *ngIf="showInformation">
+<pokemon-data [(show)]="showInformation" [pokemonData]="selectedPokemon" />
 </div>

@@ -1,0 +1,11 @@
+<div class="container" *ngIf="show">
+    <div class="flex flex-col items-center">
+    <img [src]="pokeballInfo.img"  width="400px" height="400px">
+    <h1>Nombre: {{pokeballInfo.name}}</h1>
+    <h2>Generacion: {{pokeballInfo.generation}}</h2>
+    <h2> Ratio: {{pokeballInfo.ratio}}</h2>
+    <h2>Precio: {{pokeballInfo.price}}</h2>
+    <h3>Informacion:</h3>
+    <p class="text-left">{{pokeballInfo.info}}</p>
+</div>
+</div>

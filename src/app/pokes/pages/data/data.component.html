@@ -1,13 +1,62 @@
-<div class="card mb-2 text-center bg-dark cursor-pointer">
-    <img class="card-img-top" [src]="pokemonData.img" width=200px height="200px">
+<div class="container flex">
+  <img [src]="pokemonData.img" width="400px" height="400px" />
+  <div class="flex flex-col items-center">
+    <h1>Nombre: {{ pokemonData.name }}</h1>
 
-<div class="card-body text-white">
- <p class="card-text ">
-   {{pokemonData.pokedexN}}
-   {{pokemonData.name}}
-   {{pokemonData.type}} 
-   {{pokemonData.description}}
-  </p>
+    <h2>Tipo:</h2>
+    <div class="flex items-center gap-2 mb-3 flex-col">
+      <div class="flex flex-row gap-3">
+        <div *ngFor="let type of pokemonData.type; let i = index">
+          <button
+            mat-raised-button
+            [ngStyle]="{
+              'background-color': getColors(pokemonData.type[i])[0]
+            }"
+          >
+            {{ pokemonData.type[i] }}
+          </button>
+        </div>
+      </div>
+      <h2>Descripcion:</h2>
+      <p class="text-base">
+        {{ pokemonData.description }}
+      </p>
+    </div>
+
+    <h2 class="items-center">Habilidades</h2>
+    <div *ngFor="let skill of pokemonData.skill; let i = index">
+      <p> Nombre de la Habilidad: {{skill.name}}</p>
+      <p> Descripcion del Ataque: {{skill.description}}</p>
+      <p> Porcentaje: {{skill.percent}}</p>
+      <p> Poder: {{skill.power}}</p>
+    </div>
+    <div class="flex items-stretch">
+      <button
+        mat-button
+        mat-flat-button
+        color="primary"
+        class="mr-5"
+        (click)="goBack()"
+      >
+        Volver
+      </button>
+      <button
+        mat-button
+        mat-flat-button
+        *ngIf="!isFavorite"
+        (click)="saveLocalStorage()"
+      >
+        <mat-icon>favorite</mat-icon>
+        Favoritos
+      </button>
+      <button
+        mat-button
+        mat-flat-button
+        *ngIf="isFavorite"
+        (click)="saveLocalStorage()"
+      >
+        Eliminar de Favoritos
+      </button>
+    </div>
+  </div>
 </div>
-<button>Volver</button>
-</div> 

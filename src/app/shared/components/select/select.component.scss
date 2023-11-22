@@ -1,0 +1,15 @@
+.select {
+  @apply p-3 bg-white text-black rounded-tl-2xl rounded-tr-2xl relative w-60 h-11  ;
+  &__icon {
+    @apply z-50 w-8 absolute  top-[5px] right-[3px]
+  }
+  &__dropdown {
+     @apply  text-black  text-base  hover:text-white cursor-pointer w-60 h-11 flex items-center justify-center;
+     &:hover {
+      background-color: rgb(123,31,162);
+     }
+  }
+}
+.rotate{
+  transform: rotate(180deg);
+}

@@ -1,0 +1,27 @@
+<form [formGroup]="myForm">
+  <div class="relative">
+  <input
+    class="select"
+    placeholder="Seleccionar Generacion"
+    formControlName="generation"
+  />
+  <img
+    [class.rotate]="showOptions"
+    src="\assets\img\icons\accordion-arrow.png"
+    class="select__icon"
+    (click)="showOptions = !showOptions"
+  />
+</div>
+  <div *ngIf="showOptions" class="absolute">
+    <div class="bg-white 	rounded-bl-2xl rounded-br-2xl">
+    <div *ngFor="let option of options"> 
+      <div
+        class=" select__dropdown"
+        (click)="selectUserGeneration(option)"
+      >
+        Generacion {{ option }}
+      </div>
+    </div>
+  </div>
+  </div>
+</form>

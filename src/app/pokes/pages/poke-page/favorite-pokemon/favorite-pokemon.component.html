@@ -1,0 +1,34 @@
+
+<h1 class="flex justify-center">Tus Pokemons Favoritos </h1>
+<div class="container">
+<div *ngFor="let pokemon of cacheStore"> 
+    
+    <div
+    class="text-center cursor-pointer border-solid border-2 mb-2  p-1 "
+    [ngStyle]="{ 'background-color': getColors(pokemon.type[0])[0] }"
+  >
+    <p class="items-center justify-center">n.º{{ pokemon.pokedexN }}</p>
+    <img [src]="pokemon.img" class="w-[200px] h-[200px]" />
+
+    <div class="card-body text-white">
+      <p class="card-text text-center pb-1">
+        {{ pokemon.name }}
+      </p>
+
+      <div
+        *ngFor="let img of pokemon.type; let i = index"
+        class="items-center inline-flex"
+      >
+        <img
+          [src]="getColors(pokemon.type[i])[1]"
+          width="30px"
+          height="30px"
+        />
+        <span>{{ pokemon.type[i] }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+    

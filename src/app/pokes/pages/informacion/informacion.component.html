@@ -1,1 +1,13 @@
-<p>informacion works!</p>
+<div *ngIf="!showTypes">
+<div class="container flex flex-wrap gap-2 justify-center">
+    <div *ngFor="let types of type"> 
+            <div class="card mb-4 text-center cursor-pointer border-solid mx-2 p-1" (click)="selecType(types)">
+                <img [src]="types.img" width="250px" height="250px" />
+                <p class="items-center text-2xl">{{types.type}}:</p>
+                <p>fuerte ante {{types.strong.length}} tipos <br> debil a {{types.weak.length}} tipos </p>
+                 <span>Dale click para mas informacion</span>
+        </div>
+    </div>
+</div>
+</div>
+<information-type [(show)]="showTypes" [typesInfo]="selectType" />
