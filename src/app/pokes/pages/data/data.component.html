@@ -1,36 +1,41 @@
-<div class="container flex">
-  <img [src]="pokemonData.img" width="400px" height="400px" />
-  <div class="flex flex-col items-center">
+<div class="container flex flex-wrap">
+  <div class="flex flex-col flex-wrap basis-1/3 items-center">
     <h1>Nombre: {{ pokemonData.name }}</h1>
-
-    <h2>Tipo:</h2>
-    <div class="flex items-center gap-2 mb-3 flex-col">
-      <div class="flex flex-row gap-3">
-        <div *ngFor="let type of pokemonData.type; let i = index">
-          <button
-            mat-raised-button
-            [ngStyle]="{
-              'background-color': getColors(pokemonData.type[i])[0]
-            }"
-          >
-            {{ pokemonData.type[i] }}
-          </button>
-        </div>
+    <img [src]="pokemonData.img" width="400px" />
+    <div class="flex flex-row gap-3">
+      <h2>Tipo:</h2>
+      <div *ngFor="let type of pokemonData.type; let i = index">
+        <button
+          mat-raised-button
+          [ngStyle]="{
+            'background-color': getColors(pokemonData.type[i])[0]
+          }"
+        >
+          {{ pokemonData.type[i] }}
+        </button>
       </div>
-      <h2>Descripcion:</h2>
-      <p class="text-base">
-        {{ pokemonData.description }}
-      </p>
     </div>
+  </div>
 
-    <h2 class="items-center">Habilidades</h2>
-    <div *ngFor="let skill of pokemonData.skill; let i = index">
-      <p> Nombre de la Habilidad: {{skill.name}}</p>
-      <p> Descripcion del Ataque: {{skill.description}}</p>
-      <p> Porcentaje: {{skill.percent}}</p>
-      <p> Poder: {{skill.power}}</p>
+  <div class="flex items-center gap-2 mb-3 flex-col basis-2/3">
+    <h2>Descripcion:</h2>
+    <p class="text-base">
+      {{ pokemonData.description }}
+    </p>
+    <h2>Habilidades</h2>
+    <div class="flex flex-row items-center flex-wrap text-center">
+      <div
+        class="basis-1/2"
+        *ngFor="let skill of pokemonData.skill | slice: 0:4"
+      >
+        <p  class="text-lg">{{ skill.name }}</p>
+        <p>Nivel Necesario : {{skill.level}}</p>
+        <p >{{ skill.description }}</p>
+        <p >Acierto: {{ skill.percent }}</p>
+        <p >Poder: {{ skill.power }}</p>
     </div>
-    <div class="flex items-stretch">
+    </div>
+    <div class="flex items-center">
       <button
         mat-button
         mat-flat-button
@@ -43,7 +48,18 @@
       <button
         mat-button
         mat-flat-button
+        color="primary"
+        class="mr-5"
+        (click)=""
+      >
+        <mat-icon>edit</mat-icon>
+        Mas Habilidades 
+      </button>
+      <button
+        mat-button
+        mat-flat-button
         *ngIf="!isFavorite"
+        color="warn"
         (click)="saveLocalStorage()"
       >
         <mat-icon>favorite</mat-icon>
@@ -54,7 +70,9 @@
         mat-flat-button
         *ngIf="isFavorite"
         (click)="saveLocalStorage()"
+        color="warn"
       >
+        <mat-icon>clear</mat-icon>
         Eliminar de Favoritos
       </button>
     </div>

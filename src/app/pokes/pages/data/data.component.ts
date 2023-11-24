@@ -16,9 +16,12 @@ export class DataComponent implements OnInit {
     img: '',
     type: [''],
     description: '',
-    skill: []   
+    skill: [],
   };
   skills: Skill[] = []
+  edistPowers: boolean  = false
+  @Input()
+  ngSwitchCase: number = 0
   @Input() show: boolean = false;
   @Output() showChange = new EventEmitter<boolean>();
   cacheStore: Pokemon[] = [];
@@ -26,7 +29,6 @@ export class DataComponent implements OnInit {
   ngOnInit(): void {
     this.checkFavorite();
     this.getSkills();
-    console.log(this.pokemonData.skill)
  }
  getSkills(){
   this.pokemonService.getSkills().subscribe((res)=>{
@@ -34,7 +36,6 @@ export class DataComponent implements OnInit {
   })
   
  }
-
   goBack() {
     this.showChange.emit(false);
   }
@@ -76,7 +77,7 @@ export class DataComponent implements OnInit {
       this.isFavorite = true;
     }
   }
-  powersArray(){
-    
+  edistPower(){
+    this.ngSwitchCase == 0 ? this.ngSwitchCase = 1 : this.ngSwitchCase = 0
   }
 }

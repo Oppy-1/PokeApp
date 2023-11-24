@@ -5,6 +5,7 @@ export interface Pokemon {
   type: string[];
   description: string;
   skill: Skill[];
+
 }
 
 export interface Pokeballs {
@@ -32,4 +33,5 @@ export interface Skill {
   percent: string;
   description: string;
   type: string;
+  level: string;
 }

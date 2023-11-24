@@ -6,7 +6,105 @@
     "type": ["PLANTA", "VENENO"],
     "habilitis": "/assets/pokemon-data/habilitis.json",
     "description": "Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región de Kanto, junto a Charmander y Squirtle. Se destaca por ser el primer Pokémon de la Pokédex Nacional",
-    "skill": [ {"name": "Placaje", "power": "35", "percent": "95%", "description": "Golpea con el cuerpo"},{"name": "Grunido", "power": "", "description": "Gruñe bajando el nivel del ataque del rival", "percent":"100%"},{"name": "Drenadoras", "description": "Planta tres semillas que quitan 1/8 de los PS máximos en cada turno. No afecta a Pokémon de tipo Planta", "percent": "90%", "power": ""},{"name": "Latigo zepa", "description": "azotal al enemigo con ramas afiladas", "percent": "100%", "power": "35"}]
+    "skill": [
+      {
+        "name": "Placaje",
+        "level": "1",
+        "power": "35",
+        "percent": "95%",
+        "description": "Golpea con el cuerpo",
+        "type": "Normal"
+      },
+      {
+        "name": "Grunido",
+        "level": "3",
+        "power": "",
+        "description": "Gruñe bajando el nivel del ataque del rival",
+        "percent": "100%",
+        "type": "Normal"
+      },
+      {
+        "name": "Drenadoras",
+        "level": "7",
+        "description": "Planta tres semillas que quitan 1/8 de los PS máximos en cada turno. No afecta a Pokémon de tipo Planta",
+        "percent": "90%",
+        "power": "",
+        "type": "Planta"
+      },
+      {
+        "name": "Latigo zepa",
+        "level": "9",
+        "description": "azotal al enemigo con ramas afiladas",
+        "percent": "100%",
+        "power": "35",
+        "type": "Planta"
+      },
+      {
+        "name": "Polvo Veneno",
+        "level": "13",
+        "description": "Polvo venenoso que puede envenenar al enemigo",
+        "percent": "75%",
+        "power": "",
+        "type": "Veneno"
+      },
+      {
+        "name": "Sonifero",
+        "level": "13",
+        "description": "Esparce Polvo que puede dormir al enemigo",
+        "percent": "75%",
+        "power": "",
+        "type": "Planta"
+      },
+      {
+        "name": "Derribo",
+        "level": "15",
+        "description": "Ataque de carga. El atacante recibe 1/4 del daño infligido al oponente",
+        "percent": "85%",
+        "power": "90",
+        "type": "Normal"
+      },
+      {
+        "name": "Hoja Afilada",
+        "level": "19",
+        "description": "Corta con hojas. Suele ser golpe crítico.",
+        "percent": "95%",
+        "power": "55",
+        "type": "Planta"
+      },
+      {
+        "name": "Dulce Aroma",
+        "level": "21",
+        "description": "Engatusa al rival para reducir 1 nivel su Evasión",
+        "percent": "100%",
+        "power": "",
+        "type": "Planta"
+      },
+      {
+        "name": "Abatidoras",
+        "level": "31",
+        "description": "El usuario lanza una semilla al rival que le causa pesar. La habilidad del rival es sustituida por insomnio lo cual hace que el rival no pueda dormir",
+        "percent": "100",
+        "power": "",
+        "type": "Planta"
+      },
+      {
+        "name": "Sintesis",
+        "level": "33",
+        "power": "",
+        "description": "Restaura PS. Si hace sol, añade la mitad de los PS máximos. En cambio, restaura 1/4 con Danza lluvia o Tormenta arena",
+        "percent": "100%",
+        "type": "Planta"
+      },
+
+      {
+        "name": "Bomba Germen",
+        "level": "37",
+        "description": "El usuario lanza una lluvia de duras semillas que caen horriblemente contra el enemigo explotando",
+        "percent": "100%",
+        "power": "80",
+        "type": "Planta"
+      }
+    ]
   },
   {
     "name": "Yvysur",
@@ -283,7 +381,7 @@
   },
   {
     "name": "Zubat",
-    "pokedexN": "041" ,
+    "pokedexN": "041",
     "img": "/assets/img/pokemons/041.png",
     "type": ["VENENO", "VOLADOR"],
     "description": "Zubat es un Pokémon de tipo veneno/volador introducido en la primera generación..."
@@ -365,7 +463,7 @@
     "type": ["PLANTA"],
     "description": "Meganium es un Pokémon de tipo planta introducido en la segunda generación. La fragancia de la flor de Meganium aplaca y suaviza los ánimos. Al luchar, este Pokémon libera mayor cantidad de esencia para disminuir el ánimo de combate de su oponente."
   },
-  
+
   {
     "name": "Treecko",
     "pokedexN": 252,

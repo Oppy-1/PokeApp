@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
 export class LayoutPageComponent {
 
   public sidebarItems = [
-    { label: 'Pokemons', icon: 'label', url: './poke' },
-    { label: 'Pokeballs', icon: 'add', url: './pokeballs' },
+    { label: 'Pokemons', icon: 'list', url: './poke' },
+    { label: 'Pokeballs', icon: 'list', url: './pokeballs' },
     { label: 'Tipos', icon: 'search', url: './info' },
-    {label: 'favoritos',  url:'./favorite'},
+    {label: 'favoritos', icon: 'favorite', url:'./favorite'},
   ]
 
 }

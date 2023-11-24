@@ -24,7 +24,8 @@ export class PokePageComponent implements OnInit {
     img: '',
     type: [''],
     description: '',
-    skill: []
+    skill: [],
+
   };
   ngOnInit(): void {
     this.getPokemons('');

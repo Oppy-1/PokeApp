@@ -1,45 +1,100 @@
 [
-    {
-      "name": "Rayo solar",
-      "power": "120",
-      "percent": "100%",
-      "description": "Precisa un turno de carga, salvo en Día Soleado. En Llovizna, Granizo y Tormenta de Arena su poder base es la mitad.",
-      "type": "Planta"
-    },
-    {
-      "name": "Planta feroz",
-      "power": "150",
-      "percent": "90%",
-      "description": "impide al usuario usar un movimiento o ser intercambiado en el siguiente turno.",
-      "type": "Planta"
-    },
-    {
-      "name": "llueve hojas",
-      "power": "130",
-      "percent": "90%",
-      "description": "100% de reducir dos niveles el Ataque Especial al usuario.",
-      "type": "Planta"
-    },
-    {
-      "name": "Mazazo",
-      "power": "120",
-      "percent": "100%",
-      "description": "Provoca un daño de retroceso al usuario equivalente al 33% del daño provocado al rival",
-      "type": "Planta"
-    },
-    {
-      "name": "Latigazo",
-      "power": "120",
-      "percent": "85%",
-      "description": "ninguno",
-      "type": "Planta"
-    },
-    {
-      "name": "Drenadoras",
-      "power": "",
-      "percent": "90%",
-      "description": "Hace perder al rival un 12.5% de su PS cada turno, y lo transfiere a nuestro Pokémon. Inefectivo contra Pokémon de tipo Planta.",
-      "type": "Planta"
-    }
+  {
+    "name": "Placaje",
+    "level": "1",
+    "power": "35",
+    "percent": "95%",
+    "description": "Golpea con el cuerpo",
+    "type": "Normal"
+  },
+  {
+    "name": "Grunido",
+    "level": "3",
+    "power": "",
+    "description": "Gruñe bajando el nivel del ataque del rival",
+    "percent": "100%",
+    "type": "Normal"
+  },
+  {
+    "name": "Drenadoras",
+    "level": "7",
+    "description": "Planta tres semillas que quitan 1/8 de los PS máximos en cada turno. No afecta a Pokémon de tipo Planta",
+    "percent": "90%",
+    "power": "",
+    "type": "Planta"
+  },
+  {
+    "name": "Latigo zepa",
+    "level": "9",
+    "description": "azotal al enemigo con ramas afiladas",
+    "percent": "100%",
+    "power": "35",
+    "type": "Planta"
+  },
+  {
+    "name": "Polvo Veneno",
+    "level": "13",
+    "description": "Polvo venenoso que puede envenenar al enemigo",
+    "percent": "75%",
+    "power": "",
+    "type": "Veneno"
+  },
+  {
+    "name": "Sonifero",
+    "level": "13",
+    "description": "Esparce Polvo que puede dormir al enemigo",
+    "percent": "75%",
+    "power": "",
+    "type": "Planta"
+  },
+  {
+    "name": "Derribo",
+    "level": "15",
+    "description": "Ataque de carga. El atacante recibe 1/4 del daño infligido al oponente",
+    "percent": "85%",
+    "power": "90",
+    "type": "Normal"
+  },
+  {
+    "name": "Hoja Afilada",
+    "level": "19",
+    "description": "Corta con hojas. Suele ser golpe crítico.",
+    "percent": "95%",
+    "power": "55",
+    "type": "Planta"
+  },
+  {
+    "name": "Dulce Aroma",
+    "level": "21",
+    "description": "Engatusa al rival para reducir 1 nivel su Evasión",
+    "percent": "100%",
+    "power": "",
+    "type": "Planta"
+  },
+  {
+    "name": "Abatidoras",
+    "level": "31",
+    "description": "El usuario lanza una semilla al rival que le causa pesar. La habilidad del rival es sustituida por insomnio lo cual hace que el rival no pueda dormir",
+    "percent": "100",
+    "power": "",
+    "type": "Planta"
+  },
+  {
+    "name": "Sintesis",
+    "level": "33",
+    "power": "",
+    "description": "Restaura PS. Si hace sol, añade la mitad de los PS máximos. En cambio, restaura 1/4 con Danza lluvia o Tormenta arena",
+    "percent": "100%",
+    "type": "Planta"
+  },
+
+  {
+    "name": "Bomba Germen",
+    "level": "37",
+    "description": "El usuario lanza una lluvia de duras semillas que caen horriblemente contra el enemigo explotando",
+    "percent": "100%",
+    "power": "80",
+    "type": "Planta"
+  }
   
   ]
